@@ -1,5 +1,5 @@
-# 用记事本创建一个新文件，命名为 .gitignore
-# 复制以下内容：
+# 在 birthday-reminder 目录下创建或编辑 .gitignore
+cat > .gitignore << EOL
 __pycache__/
 *.pyc
 *.pyo
@@ -26,3 +26,4 @@ venv/
 ENV/
 logs/*.log
 birthdays.db
+EOL
