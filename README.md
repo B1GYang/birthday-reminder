@@ -1,5 +1,4 @@
-# 创建 README.md
-cat > README.md << EOL
+
 # 生日提醒系统
 
 一个简单的生日提醒工具，支持自动更新。
